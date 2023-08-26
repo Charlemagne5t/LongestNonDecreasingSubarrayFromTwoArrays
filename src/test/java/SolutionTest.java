@@ -31,4 +31,13 @@ public class SolutionTest {
 
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void maxNonDecreasingLengthTest4() {
+        int[] nums1 = {11,7,7,9};
+        int[] nums2 = {19,19,1,7};
+        int expected = 3;
+        int actual = new Solution().maxNonDecreasingLength(nums1, nums2);
+
+        Assert.assertEquals(expected, actual);
+    }
 }
